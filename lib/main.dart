@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:heal_lo/screens/splash/splash_screen.dart';
+import 'package:intl/date_symbol_data_local.dart';
 
 void main() {
 
@@ -11,7 +12,9 @@ void main() {
     )
   );
 
-  runApp(const MyApp());
+  initializeDateFormatting().then((_) {
+    runApp(const MyApp());
+  });
 }
 
 class MyApp extends StatelessWidget {
