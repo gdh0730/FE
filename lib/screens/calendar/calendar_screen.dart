@@ -25,7 +25,7 @@ class _CalendarScreenState extends State<CalendarScreen> {
           children: [
             const Padding(
               padding: EdgeInsets.symmetric(vertical: 20.0),
-              child: const Text(
+              child: Text(
                 "Calendar",
                 style: TextStyle(
                   fontFamily: 'PretendardBlack',
