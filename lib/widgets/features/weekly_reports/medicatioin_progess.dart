@@ -18,7 +18,7 @@ class MedicationProgressSection extends StatelessWidget {
             '투약 이행률',
             style: TextStyle(
               fontSize: 20,
-              fontFamily: 'baloo2',
+              fontFamily: 'PretendardSemibold',
             ),
           ),
           const SizedBox(width: 8),
@@ -26,7 +26,7 @@ class MedicationProgressSection extends StatelessWidget {
           '${progress}%',
             style: TextStyle(
               fontSize: 20,
-              fontFamily: 'baloo2',
+              fontFamily: 'BalooRegular',
             ),
           ),
           const SizedBox(width: 8),
