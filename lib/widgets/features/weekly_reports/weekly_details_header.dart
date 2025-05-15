@@ -53,8 +53,8 @@ class _WeeklyDetailsHeaderState extends State<WeeklyDetailsHeader> {
         unit = 'mmHg';
         break;
       case 2:
-        data = _vitalData['heartRate']!;
-        unit = 'bpm';
+        data = _vitalData['weight']!;
+        unit = 'kg';
         break;
       case 3:
         data = _vitalData['bodyTemperature']!;
@@ -109,7 +109,7 @@ class _WeeklyDetailsHeaderState extends State<WeeklyDetailsHeader> {
                 tabs: const [
                   Tab(text: 'Bld Sugar'),
                   Tab(text: 'Bld Pressure'),
-                  Tab(text: 'Hrt Rate'),
+                  Tab(text: 'Weight'),
                   Tab(text: 'Temperature'),
                 ],
               ),
