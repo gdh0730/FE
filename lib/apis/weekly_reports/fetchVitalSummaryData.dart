@@ -21,7 +21,7 @@ Future<Map<String, List<double>>> fetchVitalSummaryData() async {
   return {
     'bloodSugar': [100, 95, 110, 105, 120, 115, 98],
     'bloodPressure': [120, 122, 118, 117, 119, 121, 123],
-    'heartRate': [72, 70, 74, 69, 75, 73, 71],
+    'weight': [72, 70, 74, 69, 75, 73, 71],
     'bodyTemperature': [36.5, 36.6, 36.4, 36.7, 36.5, 36.8, 36.6],
   };
 }
