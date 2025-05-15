@@ -99,8 +99,8 @@ class _VitalChartsSectionState extends State<VitalChartsSection> {
                     values: data['bloodPressure'] ?? [],
                   ),
                   VitalChartCard(
-                    title: 'Heart Rate',
-                    values: data['heartRate'] ?? [],
+                    title: 'Weights',
+                    values: data['weight'] ?? [],
                   ),
                   VitalChartCard(
                     title: 'Body Temperature',
