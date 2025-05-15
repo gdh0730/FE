@@ -39,6 +39,7 @@ dependencies:
   url_launcher: ^6.3.1
   table_calendar: ^3.2.0
   intl: ^0.20.2
+  image_picker: ^1.1.2
   fl_chart: ^1.0.0
 
 dev_dependencies:
@@ -61,7 +62,6 @@ flutter:
   uses-material-design: true
   assets:
     - assets/icons/
-    - assets/banners/
 
   fonts:
   # Pretendard 폰트
