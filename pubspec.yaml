@@ -42,6 +42,9 @@ dependencies:
   fl_chart: ^1.0.0
   image_picker: ^1.1.2
   speech_to_text: ^7.0.0
+  pdf: ^3.11.3
+  path_provider: ^2.1.5
+  share_plus: ^11.0.0
 
 dev_dependencies:
   # The "flutter_lints" package below contains a set of recommended lints to
@@ -63,6 +66,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/icons/
+    - assets/banners/
 
   fonts:
   # Pretendard 폰트
