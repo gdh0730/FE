@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:heal_lo/apis/weekly_reports/fetchVitalSummaryData.dart';
+import 'package:heal_lo/screens/weekly_reports/weekly_details_screen.dart';
 import 'package:heal_lo/widgets/features/weekly_reports/vital_chart_card.dart';
 
 class VitalChartsSection extends StatefulWidget {
@@ -37,13 +38,16 @@ class _VitalChartsSectionState extends State<VitalChartsSection> {
               ),
               TextButton(
                 onPressed: () {
-                  // TODO: 상세 페이지로 이동하는 로직 추가
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => const WeeklyDetailsScreen()),
+                  );
                 },
                 child: const Text(
                   '> more details',
                   style: TextStyle(
                     fontSize: 14,
-                    color: Colors.blue,
+                    color: Color(0xFF91937E),
                   ),
                 ),
               ),
