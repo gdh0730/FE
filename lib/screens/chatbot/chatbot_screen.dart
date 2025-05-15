@@ -9,11 +9,7 @@ class ChatbotScreen extends StatefulWidget {
 }
 
 class _ChatbotScreenState extends State<ChatbotScreen> {
-  @override
-  void initState() {
-    super.initState();
-  }
-
+// Removed the unnecessary initState override.
   @override
   Widget build(BuildContext context) {
     return Scaffold(
