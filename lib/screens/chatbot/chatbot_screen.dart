@@ -14,9 +14,9 @@ class _ChatbotScreenState extends State<ChatbotScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: CommonAppBarWidget(),
-      body: SafeArea(
+      body: const SafeArea(
         child: Center(
-          child: const Text("추후 추가될 기능입니다."),
+          child: Text("추후 추가될 기능입니다."),
         ),
       ),
     );
