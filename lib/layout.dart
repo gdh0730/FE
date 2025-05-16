@@ -23,7 +23,7 @@ class _MainLayoutState extends State<MainLayout> {
     ChatbotScreen(),
     HomeScreen(),
     WeeklySummaryScreen(),
-    // MyPageScreen(),
+    MyPageScreen(),
   ];
 
   void _onTabTapped(int index) {
